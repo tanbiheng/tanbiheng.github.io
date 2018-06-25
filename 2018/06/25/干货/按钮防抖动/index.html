@@ -43,7 +43,7 @@
     
     <title>
         
-            分类 | 
+            按钮防抖动 | 
         
         tanbiheng
     </title>
@@ -54,7 +54,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content=",干货">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="tanbiheng">
-    <meta name="msapplication-starturl" content="http://yoursite.com/categories/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/06/25/干货/按钮防抖动/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="tanbiheng">
@@ -230,13 +230,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/categories/">
+    <meta property="og:url" content="http://yoursite.com/2018/06/25/干货/按钮防抖动/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="分类 | tanbiheng">
+    <meta property="og:title" content="按钮防抖动 | tanbiheng">
     <meta property="og:image" content="/img/favicon.png">
     <meta property="og:description" content="">
-    
+    <meta property="og:article:tag" content="干货"> 
 
+    
+        <meta property="article:published_time" content="Mon Jun 25 2018 15:03:34 GMT+0800">
+        <meta property="article:modified_time" content="Mon Jun 25 2018 17:14:17 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -244,13 +247,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/categories/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/06/25/干货/按钮防抖动/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "http://yoursite.com/2018/06/25/干货/按钮防抖动/index.html",
+    "headline": "按钮防抖动",
+    "datePublished": "Mon Jun 25 2018 15:03:34 GMT+0800",
+    "dateModified": "Mon Jun 25 2018 17:14:17 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "tanbiheng",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/doraemon.jpg"
+        },
+        "description": "Hi, nice to meet you"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "tanbiheng",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.png"
+        }
+    },
+    "keywords": ",干货",
+    "description": "",
+}
+</script>
 
 
     
@@ -286,6 +319,39 @@
 
                     <!-- Post TOC -->
 
+    
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#安卓按钮防抖动之终极解决方案"><span class="post-toc-number">1.</span> <span class="post-toc-text">安卓按钮防抖动之终极解决方案</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#首先我们定义一个点击事件接口"><span class="post-toc-number">2.</span> <span class="post-toc-text">首先我们定义一个点击事件接口</span></a></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#再定义一个抽象类对我们的点击事件做一层包装"><span class="post-toc-number">3.</span> <span class="post-toc-text">再定义一个抽象类对我们的点击事件做一层包装</span></a></li></ol>
+    </ul>
+    
+
+
+
 
 <!-- Layouts -->
 
@@ -312,7 +378,7 @@
         
     
             <p class="article-headline-p">
-                分类
+                按钮防抖动
             </p>
         </div>
 
@@ -349,6 +415,15 @@
 
     <!-- Tags (bookmark) -->
     
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/干货/">干货</a>
+    </ul>
+    
 
     <!-- Share -->
     
@@ -363,7 +438,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=分类&url=http://yoursite.com/categories/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=按钮防抖动&url=http://yoursite.com/2018/06/25/干货/按钮防抖动/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -384,7 +459,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=tanbiheng&title=分类&summary=&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/categories/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=tanbiheng&title=按钮防抖动&summary=&pics=http://yoursite.com/img/favicon.png&url=http://yoursite.com/2018/06/25/干货/按钮防抖动/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -403,7 +478,20 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        
+        <h1 id="安卓按钮防抖动之终极解决方案"><a href="#安卓按钮防抖动之终极解决方案" class="headerlink" title="安卓按钮防抖动之终极解决方案"></a>安卓按钮防抖动之终极解决方案</h1><p>开发过程中，我们经常会用到OnClick点击事件，常用的写法可能是这样的：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">btn.setOnClickListener(<span class="keyword">new</span> OnClickListener() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">                <span class="comment">//TODO</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<p>或者是这样的：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">btn.setOnClickListener(<span class="keyword">this</span>);</span><br><span class="line"></span><br><span class="line"><span class="meta">@Override</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">   <span class="comment">//TODO</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>正常情况下，这样的代码是没有什么问题的，但是大家都知道安卓碎片化严重，每个手机的性能也千差万别。想必大家都遇到过，在比较卡的手机上，快速点击按钮打开一个页面，结果发现这个页面被打开了两次…</p>
+<p>一般这种情况下，我们会打开百度，看看万能的网友都是怎么处理这种问题的（当时我就是这么做的😳），搜索到的处理方式可能是这样的：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">btn.setOnClickListener(<span class="keyword">new</span> OnClickListener() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">                <span class="comment">//TODO</span></span><br><span class="line">                btn.setClickable(<span class="keyword">false</span>);</span><br><span class="line">                btn.setEnabled(<span class="keyword">false</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<p>也可能是这样的：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">NoDoubleClickListener</span> <span class="keyword">implements</span> <span class="title">OnClickListener</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> MIN_CLICK_DELAY_TIME = <span class="number">1000</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">long</span> lastClickTime = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">long</span> currentTime = Calendar.getInstance().getTimeInMillis();</span><br><span class="line">        <span class="keyword">if</span> (currentTime - lastClickTime &gt; MIN_CLICK_DELAY_TIME&#123;</span><br><span class="line">            lastClickTime = currentTime;</span><br><span class="line">            onNoDoubleClick(v);</span><br><span class="line">        &#125; </span><br><span class="line">     &#125;  </span><br><span class="line"> </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">onNoDoubleClick</span><span class="params">(View v)</span></span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">btn.setOnClickListener(<span class="keyword">new</span> NoDoubleClickListener() &#123;</span><br><span class="line">            <span class="meta">@Override</span></span><br><span class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onNoDoubleClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">                 <span class="comment">//TODO</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br></pre></td></tr></table></figure></p>
+<p>还有的说用RxBinding，由于涉及到Rxjava相关的知识，篇幅原因，我这里就不过多描述，感兴趣的同学可以自行百度了解。</p>
+<p>当然，上述几种方式均能达到防止按钮快速点击，但是其弊端也比较明显。先说第一种方式，这种方法虽然可以防止快速点击，但是其给体验上的影响还是非常大的，想想如果你这个按钮点击后会有网络请求，如果网络请求执行过程比较长的话，按钮一直无法被点击，会让用户以为出现了bug；方式二相比第一种方法，体验上倒是没什么问题，但是其弊端在于只能通过匿名内部类的方式注册点击事件，当出现一个界面按钮比较多，写起来代码就显得比较臃肿了。</p>
+<p>说了这么多，是时候展示真正的技术了，不多BB，直接上代码。</p>
+<h1 id="首先我们定义一个点击事件接口"><a href="#首先我们定义一个点击事件接口" class="headerlink" title="首先我们定义一个点击事件接口"></a>首先我们定义一个点击事件接口</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">OnLimitClickListener</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 按钮点击事件</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> view</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View view)</span></span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="再定义一个抽象类对我们的点击事件做一层包装"><a href="#再定义一个抽象类对我们的点击事件做一层包装" class="headerlink" title="再定义一个抽象类对我们的点击事件做一层包装"></a>再定义一个抽象类对我们的点击事件做一层包装</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">OnLimitClickHelper</span> <span class="keyword">implements</span> <span class="title">View</span>.<span class="title">OnClickListener</span> </span>&#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">final</span> <span class="keyword">int</span> LIMIT_TIME = <span class="number">300</span>;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">long</span> lastClickTime = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">private</span> OnLimitClickListener onLimitClickListener = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">OnLimitClickHelper</span><span class="params">(OnLimitClickListener onLimitClickListener)</span></span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.onLimitClickListener = onLimitClickListener;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">long</span> curTime = Calendar.getInstance().getTimeInMillis();</span><br><span class="line">        <span class="keyword">if</span> (curTime - lastClickTime &gt; LIMIT_TIME) &#123;</span><br><span class="line">            lastClickTime = curTime;</span><br><span class="line">            <span class="keyword">if</span>(onLimitClickListener != <span class="keyword">null</span>)&#123;</span><br><span class="line">                onLimitClickListener.onClick(v);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>ok,完工！😂😂😂</p>
+<p>最后我们看看Activity的使用：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">MainActivity</span> <span class="keyword">extends</span> <span class="title">AppCompatActivity</span> <span class="keyword">implements</span> <span class="title">OnLimitClickListener</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> Button btn = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">onCreate</span><span class="params">(Bundle savedInstanceState)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">super</span>.onCreate(savedInstanceState);</span><br><span class="line">        setContentView(R.layout.activity_main);</span><br><span class="line"></span><br><span class="line">        btn = findViewById(R.id.btn);</span><br><span class="line">        btn.setOnClickListener(<span class="keyword">new</span> OnLimitClickHelper(<span class="keyword">this</span>));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onClick</span><span class="params">(View v)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//TODO</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>觉得写的不错的朋友，帮忙点下喜欢，你们的支持是我创作的动力！大家有什么问题也可以在下方评论，有时间我会一一解答，感谢！</p>
+
         
     
 
@@ -423,11 +511,27 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
+        <a href="/2018/06/25/屏幕适配/状态栏和虚拟按键/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2018/06/25/爬坑指南/FragmentStatePagerAdapter/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
@@ -597,6 +701,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
